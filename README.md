@@ -87,7 +87,8 @@ The *AWSAN SULTAN OMNI-ENGINE PROTOCOL (ASOEP)* architectural designs, compiled 
 </p>
 
 ---
-> 🎮 **نموذج تطبيقي مثبت:** يمثل هيكل هذا البروتوكول البنية التحتية التشغيلية الأساسية التي تشغل محرك ألعاب الـ Web3 لـ **awsan-sultan-game-core-crypto**. للاطلاع على الدمج الفعلي المباشر لحزمة الـ SDK هذه بجانب خامات الـ RTX الهجينة وسكربتات الـ NPCs التفاعلية، يرجى زيارة مستودع التطوير الرئيسي: [منظومة محرك ألعاب ASGCC]([https://github.com](https://github.com/awsanadelabdulbariahmedsultan-art/awsan-sultan-game-core-crypto))
+> 🎮 **نموذج تطبيقي مثبت:** يمثل هيكل هذا البروتوكول البنية التحتية التشغيلية الأساسية التي تشغل محرك ألعاب الـ Web3 لـ **awsan-sultan-game-core-crypto**. للاطلاع على الدمج الفعلي المباشر لحزمة الـ SDK هذه بجانب خامات الـ RTX الهجينة وسكربتات الـ NPCs التفاعلية، يرجى زيارة مستودع التطوير الرئيسي: [منظومة محرك ألعاب ASGCC]
+> ([https://github.com](https://github.com/awsanadelabdulbariahmedsultan-art/awsan-sultan-game-core-crypto))
 > https://github.com/awsanadelabdulbariahmedsultan-art/awsan-sultan-game-core-crypto/tree/main
 
 
