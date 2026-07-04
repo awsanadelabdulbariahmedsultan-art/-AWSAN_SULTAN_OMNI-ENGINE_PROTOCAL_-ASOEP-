@@ -85,6 +85,10 @@ The *AWSAN SULTAN OMNI-ENGINE PROTOCOL (ASOEP)* architectural designs, compiled 
 
 ---
 # 🌐 بروتوكول أوسان سلطان للمحركات عابرة السلاسل (ASOEP)
+<p align="center">
+  <img src="./ASOEP LOGO.png" alt="ASOEP LOGO" width="1254" height="1254"/>
+</p>
+
 ### البنية التحتية المتطورة للمؤسسات والشركات لتشغيل الذكاء الاصطناعي المحلي وتحصيل عوائد الأصول الرقمية
 
 <p align="center">
