@@ -1,4 +1,9 @@
 # 🌐 AWSAN SULTAN OMNI-ENGINE PROTOCOL (ASOEP)
+
+<p align="center">
+  <img src="./ASOEP LOGO.png" alt="ASOEP LOGO" width="1254" height="1254"/>
+</p>
+
 ### Next-Generation Enterprise Infrastructure for Zero-Cloud AI & Cross-Chain Asset Monetization
 
 <p align="center">
