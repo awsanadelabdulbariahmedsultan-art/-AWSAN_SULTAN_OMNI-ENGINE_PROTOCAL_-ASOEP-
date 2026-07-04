@@ -12,7 +12,7 @@ Modern gaming studios and enterprises looking to build decentralized Web3 applic
 1. **Exorbitant AI Server Costs:** Hosting Generative AI and LLMs for interactive NPCs on cloud instances (AWS/OpenAI) incurs non-scalable monthly OpEx that destroys profitability.
 2. **Friction-Ridden Asset Bridging:** Implementing cross-chain capabilities natively is complex, insecure, and lacks institutional-grade monetization mechanisms for the developers.
 
-**The AWSAN SULTAN OMNI-ENGINE PROTOCOL (ASOEP)** solves this by offering a B2B plug-and-play protocol layer. It enables corporate entities to deploy localized, zero-cloud-cost AI agents leveraging client-side NVIDIA عتاد (ACE/RTX Spark), while running an algorithmic multi-chain asset bridge with built-in corporate monetization routing.
+**The AWSAN SULTAN OMNI-ENGINE PROTOCOL (ASOEP)** solves this by offering a B2B plug-and-play protocol layer. It enables corporate entities to deploy localized, zero-cloud-cost AI agents leveraging client-side NVIDIA hardware (ACE/RTX Spark), while running an algorithmic multi-chain asset bridge with built-in corporate monetization routing.
 
 ---
 
@@ -34,7 +34,7 @@ awsan-sultan-omni-engine-protocol/
 
 ---
 
-## ✨ Enterprise Features & Core Value Propositions (Value Pack)
+## ✨ Enterprise Features & Core Value Propositions
 
 *   **Zero-Cloud OpEx Generative AI (Powered by NVIDIA ACE & RTX Spark):** The protocol offloads neural inferences entirely onto the player’s consumer hardware (Tensor cores). Companies pay **$0** in ongoing monthly cloud server bills for interactive NPCs.
 *   **Algorithmic Revenue Partitioning:** Every cross-chain transfer passing through the corporate contract utilizing `AsoepBridgeCore.sol` incurs a mandatory **1% bridge processing fee** settled in the native utility token. 
@@ -49,7 +49,7 @@ The protocol is commercialized under a proprietary **Enterprise B2B License (E2B
 
 | Tier Level | Intended Market | Features Included | Protocol Fee Structure |
 | :--- | :--- | :--- | :--- |
-| **🥇 Independent Studio** | Indie Developers & Small Startups | Local AI SDK + Mobile Shaders Optimization | 1% Bridge Fee ($70% Treasury / 30% Burn) |
+| **🥇 Independent Studio** | Indie Developers & Small Startups | Local AI SDK + Mobile Shaders Optimization | 1% Bridge Fee (70% Treasury / 30% Burn) |
 | **💎 Enterprise Pro** | Mid-Tier Gaming Studios & Web3 Apps | Full NVIDIA Path Tracing + Local AI + Core Multi-Chain Gateway | 1% Bridge Fee + Monthly Protocol License Key Fee |
 | **👑 Institutional Custom** | AAA Publishers & Financial Corporations | Customized SHA256 Security Vectors + Sovereign Dedicated Multi-Chain Routing | Tailored Fee Split Contract Matrix |
 
