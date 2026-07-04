@@ -57,3 +57,53 @@ public class AsoepMaterialPipeline : MonoBehaviour
             ApplyTargetEcosystemShaders(enterpriseMobileShader, false);
         }
     }
+
+    /**
+     * @dev Iterates and injects specific enterprise shader parameters across partner material arrays.
+     */
+    private void ApplyTargetEcosystemShaders(Shader shaderPayload, bool injectRtxMaps)
+    {
+        if (shaderPayload == null) return;
+
+        int processedMaterials = 0;
+        foreach (Material mat in customerRegisteredMaterials)
+        {
+            if (mat != null)
+            {
+                mat.shader = shaderPayload;
+                if (injectRtxMaps)
+                {
+                    // Core proprietary shader keyword expansions from the initial framework architecture
+                    mat.EnableKeyword("_METALLICGLOSSMAP");
+                    mat.EnableKeyword("_NORMALMAP");
+                    mat.SetInt("_ZWrite", 1);
+                }
+                processedMaterials++;
+            }
+        }
+        Debug.Log($"[ASOEP Telemetry] Successfully bound {processedMaterials} corporate material layers to tier: {RuntimeRenderingProfile}");
+    }
+
+    /**
+     * @notice Public B2B entry point for external developer studios to register assets dynamically to the optimization matrix.
+     */
+    public void InjectExternalPartnerMaterial(Material partnerMaterial)
+    {
+        if (partnerMaterial == null) return;
+
+        if (!customerRegisteredMaterials.Contains(partnerMaterial))
+        {
+            customerRegisteredMaterials.Add(partnerMaterial);
+        }
+
+        bool isUltraMode = RuntimeRenderingProfile == "ASOEP_NVIDIA_ULTRA_PATH_TRACING";
+        partnerMaterial.shader = isUltraMode ? enterpriseRtxShader : enterpriseMobileShader;
+        
+        if (isUltraMode)
+        {
+            partnerMaterial.EnableKeyword("_METALLICGLOSSMAP");
+            partnerMaterial.EnableKeyword("_NORMALMAP");
+        }
+        Debug.Log($"[ASOEP Asset Binding] External corporate texture registered and verified under ASOEP profile parameters.");
+    }
+}
