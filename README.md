@@ -7,6 +7,7 @@
 
 ---
 > 🎮 **PROVEN PROTOTYPE:** This protocol architecture serves as the core production infrastructure powering the **awsan-sultan-game-core-crypto** Web3 engine. To view the live operational integration of this SDK alongside hybrid RTX materials and interactive NPC scripts, visit the master development repository: [ASGCC Game Core Engine Ecosystem]([https://github.com](https://github.com/awsanadelabdulbariahmedsultan-art/awsan-sultan-game-core-crypto))
+> https://github.com/awsanadelabdulbariahmedsultan-art/awsan-sultan-game-core-crypto
 
 
 ---
